@@ -1,0 +1,17 @@
+class com.sap.sdk.examples.ContributionZtl extends Component {
+
+	/* Returns the current text */
+	String getText() {*
+		return this.exText;
+	*}
+
+	/* Sets the text. */
+	void setText(/* New text */ String newText) {*
+		this.exText = newText;
+	*}
+	
+	/* Sets the text with additional prefix */
+	void setTextPre(/*New text*/ String newText){*
+		this.ex=newText+" Prefix";
+	*}
+}

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdkExtension
+	xmlns="http://www.sap.com/bi/zen/sdk"
+	id="com.sap.sdk.examples"
+	title="SDK Examples"
+	version="1.0"
+	vendor="SAP">
+	<group title="SDK Examples" id="sdkEx" />
+	<component id="Lifecycle" title="Lifecycle" icon="res/icon.png"
+		handlerType="div" propertySheetPath="" databound="true" group="sdkEx">
+		<jsInclude>res/js/lifecycle.js</jsInclude>
+		<initialization>
+			<defaultValue property="WIDTH">100</defaultValue>
+			<defaultValue property="HEIGHT">100</defaultValue>
+			<defaultValue property="TOP_MARGIN">0</defaultValue>
+			<defaultValue property="LEFT_MARGIN">0</defaultValue>
+			<defaultValue property="RIGHT_MARGIN">auto</defaultValue>
+			<defaultValue property="BOTTOM_MARGIN">auto</defaultValue>
+		</initialization>
+	</component>
+	<component id="PropertiesEx" title="Properties Exercise"
+		group="sdkEx" handlerType="div" icon="res/icon.png">
+		<jsInclude>res/js/properties.js</jsInclude>
+		<cssInclude>res/css/properties.css</cssInclude>
+		<property type="Color" title="Color" id="color"></property>
+		<property type="int" title="Border Width" id="borderWidth"></property>
+		<initialization>
+			<defaultValue property="color">#FF0000</defaultValue>
+			<defaultValue property="WIDTH">500</defaultValue>
+			<defaultValue property="HEIGHT">300</defaultValue>
+			<defaultValue property="TOP_MARGIN">0</defaultValue>
+			<defaultValue property="LEFT_MARGIN">0</defaultValue>
+			<defaultValue property="RIGHT_MARGIN">auto</defaultValue>
+			<defaultValue property="BOTTOM_MARGIN">auto</defaultValue>
+		</initialization>
+	</component>
+	<component id="AdditionalProperties" title="Additional Properties"
+		group="sdkEx" handlerType="div" icon="res/icon.png"
+		propertySheetPath="res/additional_properties_sheet/ap_additionalProperties.html">
+		<jsInclude>res/js/additionalProperties.js</jsInclude>
+		<property type="String" title="Text" id="exText"></property>
+		<property type="Color" title="Backgound Color" id="backgroundColor"></property>
+		<initialization>
+			<defaultValue property="exText">Default Text</defaultValue>
+			<defaultValue property="WIDTH">500</defaultValue>
+			<defaultValue property="HEIGHT">300</defaultValue>
+			<defaultValue property="TOP_MARGIN">0</defaultValue>
+			<defaultValue property="LEFT_MARGIN">0</defaultValue>
+			<defaultValue property="RIGHT_MARGIN">auto</defaultValue>
+			<defaultValue property="BOTTOM_MARGIN">auto</defaultValue>
+			<defaultValue property="backgroundColor">#FFFF00</defaultValue>
+		</initialization>		
+	</component>
+	<component id="ContributionZtl" title="Contribution Ztl"
+		group="sdkEx" handlerType="div" icon="res/icon.png">
+		<jsInclude>res/js/contributionztl.js</jsInclude>
+		<property type="String" title="Text" id="exText"></property>
+		<property type="ScriptText" title="On Click" id="onclick"></property>
+		<initialization>
+			<defaultValue property="exText">Default Text</defaultValue>
+			<defaultValue property="WIDTH">500</defaultValue>
+			<defaultValue property="HEIGHT">300</defaultValue>
+			<defaultValue property="TOP_MARGIN">0</defaultValue>
+			<defaultValue property="LEFT_MARGIN">0</defaultValue>
+			<defaultValue property="RIGHT_MARGIN">auto</defaultValue>
+			<defaultValue property="BOTTOM_MARGIN">auto</defaultValue>
+		</initialization>		
+	</component>
+	<component id="AdditionalPropertiesDebug" title="Additional Properties Debug"
+		group="sdkEx" handlerType="div" icon="res/icon.png"
+		propertySheetPath="res/additional_properties_sheet/ap_additionalProperties_Debug.html">
+		<jsInclude>res/js/additionalProperties_Debug.js</jsInclude>
+		<property type="String" title="Text" id="exText"></property>
+		<property type="Color" title="Backgound Color" id="backgroundColor"></property>
+		<initialization>
+			<defaultValue property="exText">Default Text</defaultValue>
+			<defaultValue property="WIDTH">500</defaultValue>
+			<defaultValue property="HEIGHT">300</defaultValue>
+			<defaultValue property="TOP_MARGIN">0</defaultValue>
+			<defaultValue property="LEFT_MARGIN">0</defaultValue>
+			<defaultValue property="RIGHT_MARGIN">auto</defaultValue>
+			<defaultValue property="BOTTOM_MARGIN">auto</defaultValue>
+			<defaultValue property="backgroundColor">#FFFF00</defaultValue>
+		</initialization>		
+	</component>
+	<component id="ClassConflict" title="Class Conflict" group="sdkEx"
+		handlerType="div" icon="res/icon.png">
+		<jsInclude>res/externalJS/d3.js</jsInclude>
+		<jsInclude>res/js/classConflict.js</jsInclude>
+		<initialization>
+			<defaultValue property="WIDTH">500</defaultValue>
+			<defaultValue property="HEIGHT">300</defaultValue>
+			<defaultValue property="TOP_MARGIN">0</defaultValue>
+			<defaultValue property="LEFT_MARGIN">0</defaultValue>
+			<defaultValue property="RIGHT_MARGIN">auto</defaultValue>
+			<defaultValue property="BOTTOM_MARGIN">auto</defaultValue>
+		</initialization>
+	</component>
+	<component id="FourAuto" title="Four Auto" group="sdkEx"
+		handlerType="div" icon="res/icon.png">
+		<jsInclude>res/js/fourauto.js</jsInclude>
+		<initialization>
+			<defaultValue property="WIDTH">500</defaultValue>
+			<defaultValue property="HEIGHT">300</defaultValue>
+		</initialization>
+	</component>
+	<component id="MoreExtensionsCrash" title="More Extensions Crash" group="sdkEx"
+		handlerType="div" icon="res/icon.png">
+		<jsInclude>res/js/moreExtensions.js</jsInclude>
+		<initialization>
+			<defaultValue property="WIDTH">500</defaultValue>
+			<defaultValue property="HEIGHT">300</defaultValue>
+			<defaultValue property="TOP_MARGIN">0</defaultValue>
+			<defaultValue property="LEFT_MARGIN">0</defaultValue>
+			<defaultValue property="RIGHT_MARGIN">auto</defaultValue>
+			<defaultValue property="BOTTOM_MARGIN">auto</defaultValue>
+		</initialization>
+	</component>
+	<component id="ResponsiveIssue" title="Responsive Issue" group="sdkEx"
+		handlerType="div" icon="res/icon.png">
+		<jsInclude>res/js/responsiveIssue.js</jsInclude>
+		<initialization>
+			<defaultValue property="WIDTH">500</defaultValue>
+			<defaultValue property="HEIGHT">300</defaultValue>
+			<defaultValue property="TOP_MARGIN">0</defaultValue>
+			<defaultValue property="LEFT_MARGIN">0</defaultValue>
+			<defaultValue property="RIGHT_MARGIN">auto</defaultValue>
+			<defaultValue property="BOTTOM_MARGIN">auto</defaultValue>
+		</initialization>
+	</component>
+	<component id="APButton" title="Additional Properties Button"
+		group="sdkEx" handlerType="div" icon="res/icon.png"
+		propertySheetPath="res/additional_properties_sheet/ap_button.html">
+		<jsInclude>res/js/button.js</jsInclude>
+		<property type="Text" title="Default Text" id="exText"></property>
+		<initialization>
+			<defaultValue property="WIDTH">500</defaultValue>
+			<defaultValue property="HEIGHT">300</defaultValue>
+			<defaultValue property="TOP_MARGIN">0</defaultValue>
+			<defaultValue property="LEFT_MARGIN">0</defaultValue>
+			<defaultValue property="RIGHT_MARGIN">auto</defaultValue>
+			<defaultValue property="BOTTOM_MARGIN">auto</defaultValue>
+			<defaultValue property="exText">Default Value</defaultValue>
+		</initialization>		
+	</component>
+</sdkExtension>

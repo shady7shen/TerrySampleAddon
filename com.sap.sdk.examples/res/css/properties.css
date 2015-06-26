@@ -1,0 +1,7 @@
+.coloredBox {
+	display:block;
+	background-color:#FF0000;
+	border-color:black;
+	border-width:2px;
+	border-style:solid;
+}

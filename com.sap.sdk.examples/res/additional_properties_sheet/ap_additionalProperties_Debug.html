@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Colored Box Property Sheet</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="/aad/zen.rt.components.sdk/resources/js/sdk_propertysheets_handler.js"></script>
+		<script src="ap_additionalProperties_Debug.js"></script>
+	</head>
+	<script>
+		new com.sap.sdk.examples.AdditionalPropertiesDebugPropertyPage();
+	</script>
+	<body>
+		<form id="form">
+			<fieldset>
+				<legend>Additional Properties Debug Properties</legend>
+				<table>
+					<tr>
+						<td>Changed Text</td>
+						<td colspan="2"><input id="changedText" type="text"></td>
+					</tr>
+					<tr>
+						<td>Text To Change</td>
+						<td><input id="text2Change" type="text"></td>
+						<td><button type="submit">Submit</button></td>
+					</tr>
+					<tr>
+						<td>Background Color</td>
+						<td><button id="colorButton" type="button">Change</button></td>
+					</tr>
+					<tr id="testComponentSelected">
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</body>
+</html>
