@@ -1,6 +1,6 @@
 class com.sap.sdk.examples.ContributionZtl extends Component {
 
-	/* Returns the current text */
+	/* Returns the current text    */
 	String getText() {*
 		return this.exText;
 	*}
